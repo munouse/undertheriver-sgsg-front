@@ -1,0 +1,58 @@
+.wrapper {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #0f3068;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    vertical-align: center;
+}
+
+/* pc */
+.login_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_container a {
+    padding: 15px 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #112333;
+}
+.btn_wrap{
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+.btn_wrap a {
+    color: #112333;
+    cursor: pointer;
+}
+.btn_wrap .btnColor {
+    padding: 20px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 50px;
+    background: #fff;
+}
+.input_wrap {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input_wrap .keyword {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none ;
+}
+.keyword:focus{
+    outline: none;
+}
