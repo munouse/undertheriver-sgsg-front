@@ -1,9 +1,9 @@
 import React from 'react';
 import { Router, Route, Switch } from 'react-router-dom';
 import { createMemoryHistory } from 'history';
+import { Main } from './containers/index';
 
 const history = createMemoryHistory();
-import { Main } from './index';
 
 const Root: React.FC = () => (
   <Router history={history}>

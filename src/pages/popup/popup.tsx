@@ -1,12 +1,11 @@
 import React from 'react';
 
-const Main = () => {
-  console.log('main');
+const Popup = () => {
   return (
     <div className="wrapper">
-      <main>test</main>
+      <main>Popup</main>
     </div>
   );
 };
 
-export default Main;
+export default Popup;
